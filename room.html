@@ -10,6 +10,7 @@
   <!--styles-->
   <link rel="stylesheet" href="styles/global.css">
   <link rel="stylesheet" href="styles/room.css">
+  <link rel="stylesheet" href="styles/modal.css">
 
 
   <!--fonts-->
@@ -58,84 +59,140 @@
       </section>
 
 
-    </main>
 
-    <section id="questions">
-      <h2 class="sr-only">Pergundas da comunidade</h2>
-      <div class="questions">
+
+      <section id="questions">
+        <h2 class="sr-only">Pergundas da comunidade</h2>
+        <div class="questions">
+
+          <div class="question-wrapper">
+            <div class="question-content">
+              <div class="user">
+                <img src="assets/user1.svg" alt="avatar">
+              </div>
+              <div class="question">
+                <p>Qual a diferença entre const, var e let no JavaScript?</p>
+              </div>
+            </div>
+
+            <div class="actions">
+              <a href="" class="check">
+                <img src="assets/check.svg" alt="">Marcar como lida
+              </a>
+              <a href="" class="delete">
+                <img src="assets/trash.svg" alt="">Excluir
+              </a>
+            </div>
+          </div>
+        </div>
+
 
         <div class="question-wrapper">
           <div class="question-content">
             <div class="user">
-              <img src="assets/avatar.svg" alt="avatar">
+              <img src="assets/user1.svg" alt="avatar">
             </div>
             <div class="question">
-              <p>Qual a diferença entre const, var e let no JavaScript?</p>
+              <p>O que é JavaScript?</p>
             </div>
           </div>
 
           <div class="actions">
-          <a href="" class="check">
-            <img src="assets/check.svg" alt="">Marcar como lida
-          </a>
-          <a href="" class="delete">
-            <img src="assets/trash.svg" alt="">Excluir
-          </a>
-        </div>
-        </div>
-      </div>
-
-
-      <div class="question-wrapper">
-        <div class="question-content">
-          <div class="user">
-            <img src="assets/avatar.svg" alt="avatar">
-          </div>
-          <div class="question">
-            <p>O que é JavaScript?</p>
+            <a href="" class="check">
+              <img src="assets/check.svg" alt="">Marcar como lida
+            </a>
+            <a href="" class="delete">
+              <img src="assets/trash.svg" alt="">Excluir
+            </a>
           </div>
         </div>
 
-        <div class="actions">
-        <a href="" class="check">
-          <img src="assets/check.svg" alt="">Marcar como lida
-        </a>
-        <a href="" class="delete">
-          <img src="assets/trash.svg" alt="">Excluir
-        </a>
-      </div>
-      </div>
 
-
-      <div class="question-wrapper">
-        <div class="question-content">
-          <div class="user">
-            <img src="assets/avatar.svg" alt="avatar">
+        <div class="question-wrapper">
+          <div class="question-content">
+            <div class="user">
+              <img src="assets/user1.svg" alt="avatar">
+            </div>
+            <div class="question">
+              <p>O que é TipeScript?</p>
+            </div>
           </div>
-          <div class="question">
-            <p>O que é TipeScript?</p>
+
+          <div class="actions">
+            <a href="" class="check">
+              <img src="assets/check.svg" alt="">Marcar como lida
+            </a>
+            <a href="" class="delete">
+              <img src="assets/trash.svg" alt="">Excluir
+            </a>
           </div>
         </div>
 
-        <div class="actions">
-        <a href="" class="check">
-          <img src="assets/check.svg" alt="">Marcar como lida
-        </a>
-        <a href="" class="delete">
-          <img src="assets/trash.svg" alt="">Excluir
-        </a>
-      </div>
-      </div>
+        <div class="question-wrapper">
+          <div class="question-content">
+            <div class="user">
+              <img src="assets/user1.svg" alt="avatar">
+            </div>
+            <div class="question">
+              <p>Você já sabe quais as bases para alcançar seu próximo nível com maestria? Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Ipsum vero hic laborum dolorum odit. Adipisci optio fugiat ab molestiae
+                similique voluptate itaque maiores pariatur nam ut! Neque quam placeat quidem?</p>
+            </div>
+          </div>
+
+          <div class="actions">
+            <a href="" class="check">
+              <img src="assets/check.svg" alt="">Marcar como lida
+            </a>
+            <a href="" class="delete">
+              <img src="assets/trash.svg" alt="">Excluir
+            </a>
+          </div>
+        </div>
 
 
+        <div class="question-wrapper read">
+          <div class="question-content">
+            <div class="user">
+              <img src="assets/user1.svg" alt="avatar">
+            </div>
+            <div class="question">
+              <p>O que é TipeScript?</p>
+            </div>
+          </div>
 
+          <div class="actions">
 
+            <a href="" class="delete">
+              <img src="assets/trash.svg" alt="">Excluir
+            </a>
+          </div>
+        </div>
 
-
+      </section>
+    </main>
+  </div>
 
   </div>
-  </section>
+
+  <!---Modal---->  
+  <div class="modal-wrapper">
+    <div class="modal">
+      <h2>Excluir Pergunta</h2>
+      <p>Tem certeza que deseja excluir esta pergunta?</p>
+
+      <form action="#">
+        <label class="sr-only" for-id="password"">Digite sua senha admin</label>
+        <input type="password" id="password" name="password" placeholder="Digite sua senha">
+
+        <div class="buttons">
+          <div class="button grey">Cancelar</div>
+          <button class="red">Sim, excluir</button>
+        </div>
+      </form>
+    </div>
   </div>
+
 </body>
 
 </html>
