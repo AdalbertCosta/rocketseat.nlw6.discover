@@ -24,7 +24,7 @@
 
     <!--header-->
     <header>
-      <img src="assets/logo.svg" alt="Logo Rocket.Q" class="logo">
+      <img src="images/logo.svg" alt="Logo Rocket.Q" class="logo">
     </header>
 
 
@@ -40,11 +40,12 @@
       <div class="container">
         <section>
           <h2>Crie sua própria sala</h2>
-          <form action="">
+          <form action="/create-room" method="POST">
             <label class="sr-only" for="room-pass">Insira uma senha</label>
-            <input type="password" id="room-pass" placeholder="Insira uma senha">
+            <input type="password" name="password" id="room-pass" placeholder="Insira uma senha">
             <button>
-              <img src="assets/users.svg" alt="Criar Sala">Criar Sala
+              <img src="images/users-white.svg" alt="Entrar na sala">
+              Criar Sala
             </button>
           </form>
         </section>
