@@ -10,6 +10,11 @@
   visibility: hidden;
   opacity: 0;
 }
+
+.modal-wraper.active {
+  visibility: visible;
+  opacity: 1;
+}
 .modal-wrapper .modal {
   width: min(59rem , 90%);
   background: var(--white);
